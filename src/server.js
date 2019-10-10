@@ -1,3 +1,5 @@
 const app = require("./app");
 
-app.listen(3333);
+app.listen({ port: 3333 }, () =>
+  console.info(`❤ server this my love online...`, `http://localhost:3333/`)
+);
